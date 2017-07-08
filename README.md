@@ -6,3 +6,7 @@ contact.h / contact.cpp - reprezinta contactele
 main.cpp - este relizata rularea programului.
 
 ## Instalare 
+```
+https://github.com/mhcrnl/CppPhoneBook
+cd CppPhoneBook
+```
