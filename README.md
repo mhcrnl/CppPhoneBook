@@ -1,6 +1,8 @@
 # CppPhoneBook
 Este un proiect de realizare a unei agende telefonice in C++ cu clase si fisiere distincte.
 
+![alt text](img/i01.png)
+
 contact.h / contact.cpp - reprezinta contactele
 ``` Cpp
 #ifndef CONTACT_H_INCLUDED

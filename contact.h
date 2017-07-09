@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -33,6 +34,8 @@ public:
     void setTelefon(const string& telefon);
 
     const string getNumeIntreg();
+
+    void afisare();
 };
 
 

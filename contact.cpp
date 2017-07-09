@@ -66,3 +66,12 @@ void Contact::setTelefon(const string& telefon){
 const string Contact::getNumeIntreg(){
     return getNume()+" "+getPrenume();
 }
+
+void Contact::afisare(){
+	cout << setfill('-') << setw(35) << "-" << endl;
+	cout << "Nume:    " << getNumeIntreg() << endl;
+	cout << "Telefon: " << getTelefon() << endl;
+	cout << "Email:   " << getEmail() << endl;
+	cout << setfill('-') << setw(35) << "-" << endl;
+}
+

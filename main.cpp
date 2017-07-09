@@ -28,5 +28,7 @@ int main()
 
     cout << con.getNumeIntreg()<<endl;
 
+    con.afisare();
+
     return 0;
 }
