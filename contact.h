@@ -19,19 +19,23 @@ public:
     Contact(string nume, string prenume, string email);
     Contact(string nume, string prenume, string email, string telefon);
     /**
+        Constructorul de copiere
+    */
+    Contact(const Contact&);
+    /**
         Get/set methods
     */
     const string& getNume() const;
-    void setNume(const string& nume);
+    bool setNume(const string& nume);
 
     const string& getPrenume() const;
-    void setPrenume(const string& prenume);
+    bool setPrenume(const string& prenume);
 
     const string& getEmail() const;
     void setEmail(const string& email);
 
     const string& getTelefon() const;
-    void setTelefon(const string& telefon);
+    bool setTelefon(const string& telefon);
 
     const string getNumeIntreg();
 

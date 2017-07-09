@@ -1,13 +1,26 @@
 # depslib dependency file v1.0
-1499579312 source:/home/mhcrnl/Documents/CppPhoneBook/contact.cpp
+1499605035 source:/home/mhcrnl/Documents/CppPhoneBook/contact.cpp
 	"contact.h"
 
-1499579231 /home/mhcrnl/Documents/CppPhoneBook/contact.h
+1499605035 /home/mhcrnl/Documents/CppPhoneBook/contact.h
 	<iostream>
 	<string>
 	<iomanip>
 
-1499579162 source:/home/mhcrnl/Documents/CppPhoneBook/main.cpp
+1499612405 source:/home/mhcrnl/Documents/CppPhoneBook/main.cpp
 	<iostream>
+	<fstream>
+	<stdlib.h>
+	"contact.h"
+	"agenda.h"
+
+1499610410 source:/home/mhcrnl/Documents/CppPhoneBook/agenda.cpp
+	<iostream>
+	"contact.h"
+	"agenda.h"
+
+1499607762 /home/mhcrnl/Documents/CppPhoneBook/agenda.h
+	<string>
+	<list>
 	"contact.h"
 

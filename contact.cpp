@@ -30,21 +30,46 @@ Contact::Contact(string nume, string prenume, string email, string telefon){
     p_email = email;
     p_telefon = telefon;
 }
+/**
+    Constructorul de copiere
+*/
+Contact::Contact(const Contact& alt){
+    p_nume = alt.p_nume;
+    p_prenume = alt.p_prenume;
+    p_email = alt.p_email;
+    p_telefon = alt.p_telefon;
+}
 
 const string& Contact::getNume() const {
     return p_nume;
 }
 
-void Contact::setNume(const string& nume){
+bool Contact::setNume(const string& nume){
+    if(nume == " "){
+        return false;
+    }
+    char c = nume[0];
+    if(!((c>='a' && c<='z') || (c>='A' && c<='Z'))){
+        return false;
+    }
     p_nume = nume;
+    return true;
 }
 
 const string& Contact::getPrenume() const {
     return p_prenume;
 }
 
-void Contact::setPrenume(const string& prenume){
+bool Contact::setPrenume(const string& prenume){
+    if(prenume == " "){
+        return false;
+    }
+    char c = prenume[0];
+    if(!((c>='a' && c<='z') || (c>='A' && c<='Z'))){
+        return false;
+    }
     p_prenume = prenume;
+    return true;
 }
 
 const string& Contact::getEmail() const {
@@ -59,8 +84,22 @@ const string& Contact::getTelefon() const {
     return p_telefon;
 }
 
-void Contact::setTelefon(const string& telefon){
+bool Contact::setTelefon(const string& telefon){
+    if(telefon == " "){
+        return false;
+    }
+    int n = telefon.length();
+    char c;
+    bool found = false;
+    for(int i =0; i<n && found == false; i++){
+        c = telefon.at(i);
+        if(((c>='a' && c<='z')||(c>='A' && c<='Z'))){
+            found = true;
+        }
+    }
+    if(found){ return false; }
     p_telefon = telefon;
+    return true;
 }
 
 const string Contact::getNumeIntreg(){

@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="agenda.cpp" />
+		<Unit filename="agenda.h" />
 		<Unit filename="contact.cpp" />
 		<Unit filename="contact.h" />
 		<Unit filename="main.cpp" />
