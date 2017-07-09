@@ -1,8 +1,12 @@
 # depslib dependency file v1.0
-1499537448 source:/home/mhcrnl/Documents/CppPhoneBook/contact.cpp
+1499578532 source:/home/mhcrnl/Documents/CppPhoneBook/contact.cpp
 	"contact.h"
 
-1499537642 /home/mhcrnl/Documents/CppPhoneBook/contact.h
+1499578773 /home/mhcrnl/Documents/CppPhoneBook/contact.h
 	<iostream>
 	<string>
+
+1499578590 source:/home/mhcrnl/Documents/CppPhoneBook/main.cpp
+	<iostream>
+	"contact.h"
 
