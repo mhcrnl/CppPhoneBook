@@ -1,5 +1,5 @@
 # CppPhoneBook
-Este un proiect de realizare a unei agende telefonice in C++ cu clase si fisiere distincte.
+Este un proiect de realizare a unei agende telefonice in C++ cu clase si fisiere distincte. Este realizat cu Code::Blocks si scris pe un sistem Fedora 24 verificat pe Windows 10 cu cygwin.
 
 ![alt text](img/i01.png)
 
@@ -52,4 +52,6 @@ main.cpp - este relizata rularea programului.
 ```
 https://github.com/mhcrnl/CppPhoneBook
 cd CppPhoneBook
+make
+./PhoneBook
 ```
